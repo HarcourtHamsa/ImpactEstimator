@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Covid19-Impact-Estimator-Web-App/static/css/main.7bfd9ee4.chunk.css",
+    "main.js": "/Covid19-Impact-Estimator-Web-App/static/js/main.f053d663.chunk.js",
+    "main.js.map": "/Covid19-Impact-Estimator-Web-App/static/js/main.f053d663.chunk.js.map",
+    "runtime-main.js": "/Covid19-Impact-Estimator-Web-App/static/js/runtime-main.8603b5c4.js",
+    "runtime-main.js.map": "/Covid19-Impact-Estimator-Web-App/static/js/runtime-main.8603b5c4.js.map",
+    "static/js/2.9cbb552f.chunk.js": "/Covid19-Impact-Estimator-Web-App/static/js/2.9cbb552f.chunk.js",
+    "static/js/2.9cbb552f.chunk.js.map": "/Covid19-Impact-Estimator-Web-App/static/js/2.9cbb552f.chunk.js.map",
+    "index.html": "/Covid19-Impact-Estimator-Web-App/index.html",
+    "precache-manifest.5fb879890507bf26ea7fb9d3bce09b72.js": "/Covid19-Impact-Estimator-Web-App/precache-manifest.5fb879890507bf26ea7fb9d3bce09b72.js",
+    "service-worker.js": "/Covid19-Impact-Estimator-Web-App/service-worker.js",
+    "static/css/main.7bfd9ee4.chunk.css.map": "/Covid19-Impact-Estimator-Web-App/static/css/main.7bfd9ee4.chunk.css.map",
+    "static/js/2.9cbb552f.chunk.js.LICENSE.txt": "/Covid19-Impact-Estimator-Web-App/static/js/2.9cbb552f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8603b5c4.js",
+    "static/js/2.9cbb552f.chunk.js",
+    "static/css/main.7bfd9ee4.chunk.css",
+    "static/js/main.f053d663.chunk.js"
+  ]
+}
