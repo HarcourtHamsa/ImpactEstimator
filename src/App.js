@@ -1,9 +1,22 @@
 import React from "react";
 import Nav from "./components/Nav";
+import MetaTags from "react-meta-tags";
 
 export default function App() {
   return (
     <div>
+      <MetaTags>
+        <html lang="en"></html>
+        <meta charset="utf-8" />
+        <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <title>BuildForSDG Challenge</title>
+        <meta
+          name="description"
+          content="Web site created using create-react-app"
+        />
+      </MetaTags>
       <Nav />
       <div className="container mt-5">
         <p className="mb-5 font-weight-bold">COVID19 IMPACT ESTIMATOR</p>
