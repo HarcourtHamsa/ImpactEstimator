@@ -6,7 +6,7 @@ export default function App() {
   return (
     <div>
       <MetaTags>
-        <html lang="en"></html>
+        <html lang="en" />
         <meta charset="utf-8" />
         <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
