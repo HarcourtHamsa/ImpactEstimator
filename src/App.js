@@ -1,11 +1,11 @@
 import React from "react";
 import Nav from "./components/Nav";
-import MetaTags from "react-meta-tags";
+import {Helmet} from "react-helmet";
 
 export default function App() {
   return (
     <div>
-      <MetaTags>
+      <Helmet>
         <html lang="en" />
         <meta charset="utf-8" />
         <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
@@ -13,10 +13,10 @@ export default function App() {
         <meta name="theme-color" content="#000000" />
         <title>BuildForSDG Challenge</title>
         <meta
-          name="description"
-          content="Web site created using create-react-app"
+          name="Description"
+          content="Web site created using react. This app is for buildForSDG challenge 2020"
         />
-      </MetaTags>
+      </Helmet>
       <Nav />
       <div className="container mt-5">
         <p className="mb-5 font-weight-bold">COVID19 IMPACT ESTIMATOR</p>
