@@ -1,26 +1,10 @@
 import React from "react";
 import Nav from "./components/Nav";
-import { Helmet } from "react-helmet";
+
 
 export default function App() {
   return (
     <div>
-      <Helmet>
-        <html lang="en" />
-        meta=
-        {[
-          {
-            name: "Description",
-            content:
-              "Web site created using react. This app is for buildForSDG challenge 2020",
-          },
-          { name: "viewport", content: "width=device-width, initial-scale=1" },
-          { name: "theme-color", content: "#000000" },
-          { charset: "utf-8" },
-        ]}
-        <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-        <title>BuildForSDG Challenge</title>
-      </Helmet>
       <Nav />
       <div className="container mt-5">
         <p className="mb-5 font-weight-bold">COVID19 IMPACT ESTIMATOR</p>
@@ -31,9 +15,7 @@ export default function App() {
               <div className="form-control-group">
                 <div className="form-row">
                   <div className="col-xl-6">
-                    <label htmlFor="population">
-                      Population
-                    </label>
+                    <label htmlFor="population">Population</label>
                     <input
                       type="text"
                       className="form-control mb-3"
@@ -42,9 +24,7 @@ export default function App() {
                     />
                   </div>
                   <div className="col-xl-6">
-                    <label htmlFor="time-to-elapse">
-                      Time to elapse
-                    </label>
+                    <label htmlFor="time-to-elapse">Time to elapse</label>
                     <input
                       type="text"
                       className="form-control mb-3"
@@ -57,9 +37,7 @@ export default function App() {
                 <div className="form-row">
                   <div className="col-xl-6">
                     {" "}
-                    <label htmlFor="reported-case">
-                      Reported cases
-                    </label>
+                    <label htmlFor="reported-case">Reported cases</label>
                     <input
                       type="text"
                       className="form-control mb-3"
