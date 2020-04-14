@@ -31,7 +31,7 @@ export default function App() {
               <div className="form-control-group">
                 <div className="form-row">
                   <div className="col-xl-6">
-                    <label htmlFor="#population" className="">
+                    <label htmlFor="population">
                       Population
                     </label>
                     <input
@@ -42,13 +42,14 @@ export default function App() {
                     />
                   </div>
                   <div className="col-xl-6">
-                    <label htmlFor="#population" className="">
+                    <label htmlFor="time-to-elapse">
                       Time to elapse
                     </label>
                     <input
                       type="text"
                       className="form-control mb-3"
                       data-time-to-elapse
+                      id="time-to-rlapse"
                     />
                   </div>
                 </div>
@@ -56,33 +57,36 @@ export default function App() {
                 <div className="form-row">
                   <div className="col-xl-6">
                     {" "}
-                    <label htmlFor="#population" className="">
+                    <label htmlFor="reported-case">
                       Reported cases
                     </label>
                     <input
                       type="text"
                       className="form-control mb-3"
+                      id="reported-case"
                       data-reported-case
                     />
                   </div>
                   <div className="col-xl-6">
                     {" "}
-                    <label htmlFor="#population" className="">
+                    <label htmlFor="hospital-beds" className="">
                       Hostpital beds
                     </label>
                     <input
                       type="text"
                       className="form-control mb-3 "
+                      id="hospital-beds"
                       data-total-hospital-beds
                     />
                   </div>
                 </div>
 
-                <label htmlFor="#population" className="">
+                <label htmlFor="period-type" className="">
                   Period type
                 </label>
                 <select
                   className="browser-default custom-select mb-5"
+                  id="period-type"
                   data-period-type
                 >
                   <option value="2" selected>
@@ -94,7 +98,7 @@ export default function App() {
 
                 <button
                   type="submit"
-                  className="btn p-3  pl-5 pr-5 rounded-0 btn-block"
+                  className="btn p-3 pl-5 pr-5 rounded-0 btn-block"
                   data-go-estimate
                 >
                   Get Estimate
