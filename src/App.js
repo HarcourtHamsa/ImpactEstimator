@@ -1,21 +1,25 @@
 import React from "react";
 import Nav from "./components/Nav";
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 
 export default function App() {
   return (
     <div>
       <Helmet>
         <html lang="en" />
-        <meta charset="utf-8" />
+        meta=
+        {[
+          {
+            name: "Description",
+            content:
+              "Web site created using react. This app is for buildForSDG challenge 2020",
+          },
+          { name: "viewport", content: "width=device-width, initial-scale=1" },
+          { name: "theme-color", content: "#000000" },
+          { charset: "utf-8" },
+        ]}
         <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#000000" />
         <title>BuildForSDG Challenge</title>
-        <meta
-          name="Description"
-          content="Web site created using react. This app is for buildForSDG challenge 2020"
-        />
       </Helmet>
       <Nav />
       <div className="container mt-5">
